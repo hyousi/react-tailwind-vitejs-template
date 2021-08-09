@@ -1,7 +1,7 @@
 {
   "name": "my-react-app",
   "version": "0.0.0",
-  "homepage": "https://hyousi.github.io/react-tailwind-vitejs-template",
+  "homepage": "https://hyousi.github.io/react-tailwind-vitejs-template/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

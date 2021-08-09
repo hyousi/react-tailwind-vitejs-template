@@ -19,7 +19,7 @@ jobs:
           node-version: '14'
       - run: yarn install --frozen-lockfile
       # TODO：run test here
-      - run: yarn build
+      - run: yarn build --base=/react-tailwind-vitejs-template
       - uses: actions/upload-artifact@v2
         with:
           name: production-files
