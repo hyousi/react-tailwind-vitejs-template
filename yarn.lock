@@ -1067,6 +1067,11 @@ eslint-plugin-simple-import-sort@^7.0.0:
   resolved "https://registry.nlark.com/eslint-plugin-simple-import-sort/download/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha1-odrSYvRtIYSpAJWmDGb+90cn8Pg=
 
+eslint-plugin-sonarjs@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.nlark.com/eslint-plugin-sonarjs/download/eslint-plugin-sonarjs-0.9.1.tgz#a3c63ab0d267bfb69863159e42c8081b01fd3ac6"
+  integrity sha1-o8Y6sNJnv7aYYxWeQsgIGwH9OsY=
+
 eslint-scope@^5.1.1:
   version "5.1.1"
   resolved "https://registry.nlark.com/eslint-scope/download/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"

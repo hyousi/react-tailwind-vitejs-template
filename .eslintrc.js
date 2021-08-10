@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ["react-app", "prettier"],
-  plugins: ["prettier", "simple-import-sort"],
+  extends: ["react-app", "plugin:sonarjs/recommended", "prettier"],
+  plugins: ["prettier", "simple-import-sort", "sonarjs"],
   rules: {
     "prettier/prettier": "error",
     "arrow-body-style": "off",
