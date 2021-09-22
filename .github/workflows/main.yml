@@ -43,7 +43,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           
-    deploy-to-qa:
+    deployQA:
       environment: qa
       name: Deploy-To-QA
       runs-on: ubuntu-latest
