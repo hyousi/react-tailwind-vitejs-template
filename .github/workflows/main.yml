@@ -43,11 +43,11 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           
-    deployQA:
-      environment: qa
-      name: Deploy-To-QA
-      runs-on: ubuntu-latest
+  deployQA:
+    environment: qa
+    name: Deploy-To-QA
+    runs-on: ubuntu-latest
       
-      steps:
-        - name: echo
-          run: echo "hello"
+    steps:
+      - name: echo
+        run: echo "hello"
